@@ -1,0 +1,25 @@
+.reg_form {
+    width: 50%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.st_form {
+    width: 50%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+@media(max-width:768) {
+    .reg__form {
+        width: 90%;
+    }
+    .st__form {
+        width: 90%;
+    }
+}
